@@ -1,0 +1,60 @@
+.row{
+    padding-top: 10%;
+}
+
+.img-responsive{
+    width:300px;
+    margin-top:10%;
+}
+
+.col-sm-6 p,.col-sm-6 h4 {
+    margin-right:20%;
+}
+
+.btn{
+    margin:5%;
+    width:200px;
+}
+
+.btn a{
+    color:white;
+    font-size: 18px;
+}
+.btn a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color:#6C757D;
+}
+
+.navbar a{
+    font-size: 16px;
+    color:rgb(223, 223, 223);
+    }
+    .navbar a:hover{
+        font-size: 16px;
+        color:rgb(80, 80, 80);
+        }
+
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+  width: 100% !important;
+    left: 0;
+    z-index: 20;
+}
+
+.navbar-wrapper > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  width: inherit;
+
+}
+
+.navbar-wrapper .navbar {
+  width: 100% !important;
+}
+
