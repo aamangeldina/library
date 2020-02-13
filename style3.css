@@ -4,7 +4,7 @@
 
 .navbar a{
 font-size: 16px;
-color:rgb(223, 223, 223);
+
 }
 .navbar a:hover{
     font-size: 16px;
@@ -23,7 +23,7 @@ color:rgb(223, 223, 223);
 
 .head-title h1{
     padding-top: 13%;
-    font-size: 30px;
+    font-size: 16px;
 }
 
 .title{
@@ -32,7 +32,7 @@ color:rgb(223, 223, 223);
 }
 
 .title p{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .navbar-wrapper {
@@ -64,12 +64,12 @@ color:rgb(223, 223, 223);
 }
 
 .btn{
-    width:250px;
+    width:200px;
 }
 
 .btn a{
     color:white;
-    font-size: 20px;
+    font-size: 16px;
 }
 .btn a:hover {
     color:rgb(58, 58, 58);
@@ -86,14 +86,14 @@ color:rgb(223, 223, 223);
     height: auto;
 }
 
-
-.row p {
     /* Never get smaller than this */
+.row p {
+
     font-size: 14px;
   }
 
-  .row h4{
-    font-size: 16px
+.row h4{
+    font-size: 16px;
   }
 
 @media (min-width:600px) {
@@ -103,6 +103,16 @@ color:rgb(223, 223, 223);
     .row h4{
         font-size: 20px
       }
+      .head-title h1{
+        font-size: 20px;
+        }
+      
+      .title p{
+        font-size: 18px;
+      }
+      .container-fluid .btn a{
+        font-size: 16px;
+      }
   }
   
   @media (min-width:800px) {
@@ -111,6 +121,16 @@ color:rgb(223, 223, 223);
     }
     .row h4{
         font-size: 22px
+      }
+      .head-title h1{
+        font-size: 22px;
+        }
+      
+      .title p{
+        font-size: 18px;
+      }
+      .container-fluid .btn a{
+        font-size: 18px;
       }
   }
   
@@ -122,4 +142,15 @@ color:rgb(223, 223, 223);
     .row h4{
         font-size: 24px
       }
+      .head-title h1{
+        font-size: 24px;
+        }
+      
+      .title p{
+        font-size: 18px;
+      }
+      .container-fluid .btn a{
+        font-size: 20px;
+      }
   }
+
