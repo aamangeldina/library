@@ -113,6 +113,12 @@ font-size: 16px;
       .container-fluid .btn a{
         font-size: 16px;
       }
+    .container-fluid .btn a{
+        font-size: 16px;
+      }
+    .head-title h1{
+      padding-top: 20%;
+    }
   }
   
   @media (min-width:800px) {
@@ -132,6 +138,9 @@ font-size: 16px;
       .container-fluid .btn a{
         font-size: 18px;
       }
+      .head-title h1{
+      padding-top: 20%;
+    }
   }
   
   @media (min-width:1000px) {
@@ -152,5 +161,8 @@ font-size: 16px;
       .container-fluid .btn a{
         font-size: 20px;
       }
+      .head-title h1{
+      padding-top: 20%;
+    }
   }
 
